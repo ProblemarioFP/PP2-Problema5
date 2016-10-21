@@ -35,7 +35,7 @@ public class PP2Problema5 {
         prim = (x%2!=0 && x%3!=0 && x%5!=0 && x%7!=0);
         return prim;
     }
-    public static void mostrarResultado(int x, boolean y){
+    public static void mostrarResultado(int x, boolean y){  //metodo para mostrar resultados a traves de estructuras if
         if(x==2||x==3||x==5||x==7){System.out.println("El numero "+x+" es primo");}
         else{if(y==false){
             System.out.println("El numero "+x+ " no es primo");
